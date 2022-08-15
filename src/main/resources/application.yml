@@ -1,0 +1,11 @@
+app:
+    datasource:
+        jdbc-url: jdbc:postgresql://localhost:5432/tickdb
+        username: postgres
+        password: mysecretpassword
+        pool-size: 30
+
+
+
+server:
+  port: 8080
